@@ -15,9 +15,10 @@ public class ConexionBBDD {
 	
 	private static Connection con = null;
 	private static String driverClassName = "com.mysql.jdbc.Driver";
-	private static String driverUrl = "jdbc:mysql://localhost/proyecto1";
+	private static String driverUrl = "jdbc:mysql://localhost/proyecto1?autoReconnect=true&useSSL=false";
 	private static String user = "root";
 	private static String pass = "root";
+	
 	
 	final static Logger log = Logger.getLogger("BBDD");
 	/**
