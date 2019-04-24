@@ -1,9 +1,11 @@
 package control;
-
+import control.Arranque;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Arranque menu = new Arranque();
+		menu.menu();
 
 	}
 
